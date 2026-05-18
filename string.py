@@ -25,4 +25,4 @@ print(obj.lengthOfLongestSubstring("bbbbb"))
 print(obj.lengthOfLongestSubstring("pwwkew"))    
 
 # 3. Longest Substring Without Repeating Characters - LC3
-# I used set for storing the characters in the current window. I used two pointers, left and right, to represent the current window.    and after checking irt and  moving i updated accordingly with the length . 
+#I used a set to store the characters in the current window. I used two pointers, left and right, to represent the current window. After checking and moving, I updated the length accordingly.
