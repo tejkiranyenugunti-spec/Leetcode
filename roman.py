@@ -28,3 +28,5 @@ print(obj.romanToInt("III"))
 print(obj.romanToInt("LVIII"))    
 print(obj.romanToInt("MCMXCIV"))  
 ## roman to integer
+#LC3
+#I used a dictionary to keep the Roman numbers and their integer values. I went through the string, and checked the current number against the next number. If the current value was smaller than the next one, then I went for subtractiing it annd then checking and returnign vslue
