@@ -25,5 +25,9 @@ class Solution:
 obj = Solution()
 
 
-# Finding 1st smallest element
+
 print("\nFinal Answer:", obj.kthSmallest(root, 1))
+
+# 230. Kth Smallest Element in a BST - LC230
+# I used stack to store the nodes in the current path. I used while loop to traverse the tree.
+# I go through the left sub tree then i ussed to pop the latest node  frrom the stack fot checking the smallest value.
